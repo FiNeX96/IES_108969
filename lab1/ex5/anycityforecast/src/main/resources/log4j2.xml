@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="warn">
 	<Properties>
-		<Property name="basePath">logs</Property>
+		<Property name="basePath">lab1/ex5/anycityforecast</Property>
 	</Properties>
 	<Appenders>
-		<RollingFile name="fileLogger"
+		<RollingFile name="logfile"
 			fileName="${basePath}/WeatherStarter.log"
 			filePattern="${basePath}/app-%d{yyyy-MM-dd}.log">
 			<PatternLayout>
@@ -23,16 +23,14 @@
 				</Delete>
 			</DefaultRolloverStrategy>
 		</RollingFile>
+		<Console name="stdout" target="SYSTEM_OUT">
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %p %m%n" />
+		</Console>
 	</Appenders>
-	<Appenders>
-        <Console name="stdout" target="SYSTEM_OUT">
-            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %p %m%n"/>
-        </Console>
-    </Appenders>
 	<Loggers>
 		<Root level="debug" additivity="false">
-			<appender-ref ref="fileLogger" />
-			<AppenderRef ref="stdout"/>
+			<appenderRef ref="logfile" />
+			<AppenderRef ref="stdout" />
 		</Root>
 	</Loggers>
 </Configuration>

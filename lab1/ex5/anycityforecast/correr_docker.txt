@@ -1,0 +1,2 @@
+docker image build -t docker-java-jar:latest .
+docker run docker-java-jar:latest

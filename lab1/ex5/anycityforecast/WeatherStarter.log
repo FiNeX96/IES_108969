@@ -1,0 +1,6 @@
+[DEBUG] 2023-09-28 00:58:20.295 [Timer-0] WeatherStarter -  City : Portimão , day : 2023-09-27 , Data : Max Temp -> 29.8  , Min Temp ->  17.0
+[DEBUG] 2023-09-28 00:59:38.030 [Timer-0] WeatherStarter -  City : Braga , day : 2023-09-27 , Data : Max Temp -> 26.0  , Min Temp ->  11.6
+[DEBUG] 2023-09-28 00:59:46.940 [Timer-0] WeatherStarter -  City : Setúbal , day : 2023-09-27 , Data : Max Temp -> 29.9  , Min Temp ->  15.8
+[DEBUG] 2023-09-28 00:59:56.942 [Timer-0] WeatherStarter -  City : Santa Cruz das Flores , day : 2023-09-27 , Data : Max Temp -> 25.0  , Min Temp ->  18.0
+[DEBUG] 2023-09-28 01:00:06.949 [Timer-0] WeatherStarter -  City : Santarém , day : 2023-09-27 , Data : Max Temp -> 29.9  , Min Temp ->  14.2
+[DEBUG] 2023-09-28 01:00:16.947 [Timer-0] WeatherStarter -  City : Coimbra , day : 2023-09-27 , Data : Max Temp -> 25.6  , Min Temp ->  14.1
