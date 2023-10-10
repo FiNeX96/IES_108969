@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RESTendpoint {
+public class Lab2Ex4Application {
 
-    public static void main(String[] args) {
-        SpringApplication.run(RESTendpoint.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(Lab2Ex4Application.class, args);
+	}
 
 }
