@@ -16,7 +16,7 @@ public class QuoteEndpoint {
 	public String quote(Model model) {
 
 
-		System.out.println("Request à /api/quote");
+		//System.out.println("Request à /api/quote");
 
 		Quotes quotes = new Quotes();
 		quotes.loadQuotes(); // load the quotes
